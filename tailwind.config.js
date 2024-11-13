@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+          sans: ['Poppins', 'sans-serif'],
+      },
+      colors: {
+        'war1': '#',
+        'war2': '#',
+      },
+    },
   },
   plugins: [],
 }
